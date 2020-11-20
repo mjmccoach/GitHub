@@ -15,4 +15,9 @@ public class RepoTest {
     public void canGetName() {
         assertEquals("My Cool Repo", repo1.getName());
     }
+
+    @Test
+    public void canGetDescription() {
+        assertEquals("The Coolest of Repos", repo1.getDescription());
+    }
 }

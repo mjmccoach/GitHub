@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7118e356-7924-44de-8db2-b44179a74895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RepoType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RepoTest.java" afterDir="false" />
     </list>
@@ -44,17 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.RepoTest.canGetName">
-    <configuration name="CommitTest.canGetDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GitHub" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommitTest" />
-      <option name="METHOD_NAME" value="canGetDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RepoTest.canGetDescription">
     <configuration name="CommitTest.canGetUniqueId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,6 +74,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepoTest.canGetDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepoTest" />
+      <option name="METHOD_NAME" value="canGetDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RepoTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepoTest.canGetDescription" />
         <item itemvalue="JUnit.RepoTest.canGetName" />
         <item itemvalue="JUnit.CommitTest.canSetUniqueId" />
         <item itemvalue="JUnit.CommitTest.canSetDescription" />
         <item itemvalue="JUnit.CommitTest.canGetUniqueId" />
-        <item itemvalue="JUnit.CommitTest.canGetDescription" />
       </list>
     </recent_temporary>
   </component>
@@ -119,21 +118,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1605886286359">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1605886371413">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1605886286359" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1605886286358">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1605886371413" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1605886371413">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1605886286358" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1605886286357">
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1605886371413" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1605886371412">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1605886286357" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1605886286359">
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1605886371412" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1605886371413">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1605886286359" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1605886371413" />
   </component>
 </project>
