@@ -21,5 +21,11 @@ public class CommitTest {
       assertEquals(1, commit1.getUniqueId());
    }
 
+   @Test
+   public void canSetDescription() {
+      commit1.setDescription("Second Commit");
+      assertEquals("Second Commit", commit1.getDescription());
+   }
+
 
 }

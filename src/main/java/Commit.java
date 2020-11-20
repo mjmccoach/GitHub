@@ -14,4 +14,8 @@ public class Commit {
     public int getUniqueId() {
         return this.uniqueId;
     }
+
+    public void setDescription(String string){
+        this.description =  string;
+    }
 }
