@@ -27,4 +27,12 @@ public class Repo {
     public void setDescription(String string) {
         this.description = string;
     }
+
+    public int getCommits() {
+        return this.commits.size();
+    }
+
+    public void addCommit(Commit commit) {
+        this.commits.add(commit);
+    }
 }
