@@ -7,5 +7,7 @@ public class Commit {
         this.uniqueId = uniqueId;
     }
 
-    public String getDescription()
+    public String getDescription(){
+        return this.description;
+    }
 }
