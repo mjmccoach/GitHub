@@ -19,4 +19,15 @@ public class Account {
         return this.accountType.getAccountType();
     }
 
+    public String getUserName() {
+        return this.userName;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public int repoCount() {
+        return this.repos.size();
+    }
 }

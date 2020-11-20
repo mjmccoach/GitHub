@@ -4,7 +4,6 @@
     <list default="true" id="7118e356-7924-44de-8db2-b44179a74895" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AccountType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,12 +44,32 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.canGetAccountType">
+  <component name="RunManager" selected="JUnit.AccountTest.canCountRepos">
+    <configuration name="AccountTest.canCountRepos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest" />
+      <option name="METHOD_NAME" value="canCountRepos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountTest.canGetAccountType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AccountTest" />
       <option name="METHOD_NAME" value="canGetAccountType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.canGetUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest" />
+      <option name="METHOD_NAME" value="canGetUserName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,33 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepoTest.canSetDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GitHub" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RepoTest" />
-      <option name="METHOD_NAME" value="canSetDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepoTest.canSetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GitHub" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RepoTest" />
-      <option name="METHOD_NAME" value="canSetName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountTest.canCountRepos" />
+        <item itemvalue="JUnit.AccountTest.canGetUserName" />
         <item itemvalue="JUnit.AccountTest.canGetAccountType" />
         <item itemvalue="JUnit.RepoTest.canGetRepoType" />
         <item itemvalue="JUnit.RepoTest.canAddCommit" />
-        <item itemvalue="JUnit.RepoTest.canSetDescription" />
-        <item itemvalue="JUnit.RepoTest.canSetName" />
       </list>
     </recent_temporary>
   </component>
@@ -120,22 +119,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1605890787933">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1605891088534">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1605890787933" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1605890787932">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1605891088534" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1605891088423">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1605890787932" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1605890787931">
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1605891088423" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1605891088422">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1605890787931" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1605890787932">
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1605891088422" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1605891088531">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1605890787932" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1605891088531" />
     <state width="1238" height="218" key="GridCell.Tab.1.bottom" timestamp="1605887712534">
       <screen x="0" y="23" width="1280" height="709" />
     </state>

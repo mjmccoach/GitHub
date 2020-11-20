@@ -16,6 +16,24 @@ public class AccountTest {
     public void canGetAccountType() {
         assertEquals("Free", account1.getAccountType());
     }
+
+    @Test
+    public void canGetUserName() {
+        assertEquals("HSolo", account1.getUserName());
+    }
+
+    @Test
+    public void canGetName() {
+        assertEquals("Han Solo", account1.getName());
+    }
+
+    @Test
+    public void canCountRepos() {
+        assertEquals(0, account1.repoCount());
+    }
+
+    @Test
+    public void canAddRepos
 }
 
 
