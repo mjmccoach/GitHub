@@ -16,5 +16,10 @@ public class CommitTest {
       assertEquals("Initial Commit", commit1.getDescription());
    }
 
+   @Test
+   public void canGetUniqueId() {
+      assertEquals(1, commit1.getUniqueId());
+   }
+
 
 }

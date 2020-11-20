@@ -10,4 +10,8 @@ public class Commit {
     public String getDescription(){
         return this.description;
     }
+
+    public int getUniqueId() {
+        return this.uniqueId;
+    }
 }
