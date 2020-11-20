@@ -30,4 +30,8 @@ public class Account {
     public int repoCount() {
         return this.repos.size();
     }
+
+    public void addRepo(Repo repo1) {
+        this.repos.put(repo1.getName(), repo1);
+    }
 }

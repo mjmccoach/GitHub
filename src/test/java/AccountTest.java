@@ -5,10 +5,12 @@ import static org.junit.Assert.assertEquals;
 
 public class AccountTest {
     Account account1;
+    Repo repo1;
 
     @Before
     public void before() {
         account1 = new Account("HSolo", "Han Solo", AccountType.FREE);
+        repo1 = new Repo("Stealing from Jabba","Robbing from a space slug", RepoType.PUBLIC);
 
     }
 
@@ -33,7 +35,10 @@ public class AccountTest {
     }
 
     @Test
-    public void canAddRepos
+    public void canAddRepos() {
+        account1.addRepo(repo1);
+        assertEquals(1, account1.repoCount());
+    }
 }
 
 
