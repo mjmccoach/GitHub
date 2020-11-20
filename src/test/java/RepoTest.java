@@ -9,7 +9,7 @@ public class RepoTest {
 
     @Before
     public void before(){
-        repo1 = new Repo("My Cool Repo", "The Coolest of Repos");
+        repo1 = new Repo("My Cool Repo", "The Coolest of Repos", RepoType.PUBLIC);
         commit1 = new Commit("Initial Commit", 1);
     }
 
@@ -39,5 +39,10 @@ public class RepoTest {
     public void canAddCommit() {
         repo1.addCommit(commit1);
         assertEquals(1, repo1.getCommits());
+    }
+
+    @Test
+    public void canGetRepoType() {
+        assertEquals("Public", repo1.getRepoType());
     }
 }
