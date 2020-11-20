@@ -19,4 +19,12 @@ public class Repo {
     public String getDescription() {
         return this.description;
     }
+
+    public void setName(String string) {
+        this.name = string;
+    }
+
+    public void setDescription(String string) {
+        this.description = string;
+    }
 }
