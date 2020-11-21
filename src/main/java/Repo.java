@@ -41,4 +41,11 @@ public class Repo {
         return this.repoType.getValue();
     }
 
+    public RepoType setToPrivate(Repo repo) {
+        return repo.repoType = repoType.PRIVATE;
+    }
+
+    public RepoType setToPublic(Repo repo) {
+        return repo.repoType = repoType.PUBLIC;
+    }
 }

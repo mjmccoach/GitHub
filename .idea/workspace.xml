@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7118e356-7924-44de-8db2-b44179a74895" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AccountType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RepoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RepoType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RepoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,52 +48,52 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.canAddRepos">
-    <configuration name="AccountTest.canAddRepos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RepoTest.canMakeRepoPublic">
+    <configuration name="AccountTest.canDowngradeToFree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AccountTest" />
-      <option name="METHOD_NAME" value="canAddRepos" />
+      <option name="METHOD_NAME" value="canDowngradeToFree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.canCountRepos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountTest.canGetRepos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AccountTest" />
-      <option name="METHOD_NAME" value="canCountRepos" />
+      <option name="METHOD_NAME" value="canGetRepos" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.canGetAccountType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountTest.canUpgradeToPro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AccountTest" />
-      <option name="METHOD_NAME" value="canGetAccountType" />
+      <option name="METHOD_NAME" value="canUpgradeToPro" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.canGetUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GitHub" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AccountTest" />
-      <option name="METHOD_NAME" value="canGetUserName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepoTest.canGetRepoType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepoTest.canMakeRepoPrivate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RepoTest" />
-      <option name="METHOD_NAME" value="canGetRepoType" />
+      <option name="METHOD_NAME" value="canMakeRepoPrivate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepoTest.canMakeRepoPublic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepoTest" />
+      <option name="METHOD_NAME" value="canMakeRepoPublic" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountTest.canAddRepos" />
-        <item itemvalue="JUnit.AccountTest.canCountRepos" />
-        <item itemvalue="JUnit.AccountTest.canGetUserName" />
-        <item itemvalue="JUnit.AccountTest.canGetAccountType" />
-        <item itemvalue="JUnit.RepoTest.canGetRepoType" />
+        <item itemvalue="JUnit.RepoTest.canMakeRepoPublic" />
+        <item itemvalue="JUnit.RepoTest.canMakeRepoPrivate" />
+        <item itemvalue="JUnit.AccountTest.canDowngradeToFree" />
+        <item itemvalue="JUnit.AccountTest.canUpgradeToPro" />
+        <item itemvalue="JUnit.AccountTest.canGetRepos" />
       </list>
     </recent_temporary>
   </component>
@@ -118,37 +123,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1605891454371">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1605972378272">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1605891454371" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1605891454371">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1605972378272" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1605972378268">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1605891454371" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1605891454370">
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1605972378268" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1605972378268">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1605891454370" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1605891454371">
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1605972378268" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1605972378269">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1605891454371" />
-    <state width="1238" height="218" key="GridCell.Tab.1.bottom" timestamp="1605887712534">
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1605972378269" />
+    <state width="1238" height="218" key="GridCell.Tab.1.bottom" timestamp="1605971459421">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="218" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1605887712534" />
-    <state width="1238" height="218" key="GridCell.Tab.1.center" timestamp="1605887712533">
+    <state width="1238" height="218" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1605971459421" />
+    <state width="1238" height="218" key="GridCell.Tab.1.center" timestamp="1605971459420">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="218" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1605887712533" />
-    <state width="1238" height="218" key="GridCell.Tab.1.left" timestamp="1605887712533">
+    <state width="1238" height="218" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1605971459420" />
+    <state width="1238" height="218" key="GridCell.Tab.1.left" timestamp="1605971459419">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="218" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1605887712533" />
-    <state width="1238" height="218" key="GridCell.Tab.1.right" timestamp="1605887712533">
+    <state width="1238" height="218" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1605971459419" />
+    <state width="1238" height="218" key="GridCell.Tab.1.right" timestamp="1605971459420">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="218" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1605887712533" />
+    <state width="1238" height="218" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1605971459420" />
+    <state x="342" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1605892036357">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state x="342" y="23" key="refactoring.ChangeSignatureDialog/0.23.1280.709@0.23.1280.709" timestamp="1605892036357" />
   </component>
 </project>

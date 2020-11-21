@@ -11,7 +11,6 @@ public enum RepoType {
     public String getValue() {
         return this.value;
     }
-//    public void setToPrivate() {
-//        this.value = "Private";
-//    }
+
+
 }

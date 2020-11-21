@@ -31,7 +31,22 @@ public class Account {
         return this.repos.size();
     }
 
+    public HashMap<String,Repo> getRepos() {
+        return this.repos;
+    }
+
     public void addRepo(Repo repo1) {
         this.repos.put(repo1.getName(), repo1);
+    }
+    public void upgradeToPro(Account account) {
+        account.accountType = AccountType.PRO;
+    }
+
+    public void downgradeToFree(Account account) {
+        account.accountType = AccountType.FREE;
+    }
+
+    public Repo getRepoByName(String name) {
+        return this.repos.get(name);
     }
 }

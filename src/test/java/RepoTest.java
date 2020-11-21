@@ -46,9 +46,16 @@ public class RepoTest {
         assertEquals("Public", repo1.getRepoType());
     }
 
-//    @Test
-//    public void canMakeRepoPrivate() {
-//        repo1.setToPrivate();
-//        assertEquals("Private", repo1.getRepoType());
-//    }
+    @Test
+    public void canMakeRepoPrivate() {
+        repo1.setToPrivate(repo1);
+        assertEquals("Private", repo1.getRepoType());
+    }
+
+    @Test
+    public void canMakeRepoPublic() {
+        repo1.setToPrivate(repo1);
+        repo1.setToPublic(repo1);
+        assertEquals("Public", repo1.getRepoType());
+    }
 }

@@ -3,6 +3,7 @@ public enum AccountType {
     PRO ("Pro");
 
     private String value;
+    private AccountType accountType;
 
     AccountType(String value) {
         this.value = value;
@@ -11,4 +12,6 @@ public enum AccountType {
     public String getAccountType(){
         return this.value;
     }
+//
+
 }
