@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7118e356-7924-44de-8db2-b44179a74895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GitHub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GitHubTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RepoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AccountType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AccountType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Commit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RepoType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RepoType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AccountTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CommitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CommitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RepoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RepoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GitHub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GitHub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GitHubTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GitHubTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.RepoTest.mostCommitsRepo">
+  <component name="RunManager" selected="JUnit.GitHubTest.canAddAccount">
     <configuration name="AccountTest.canGetRepoByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,10 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in GitHub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GitHubTest.canAddAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="GitHubTest" />
+      <option name="METHOD_NAME" value="canAddAccount" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GitHubTest.canAddAccount" />
         <item itemvalue="JUnit.RepoTest.mostCommitsRepo" />
         <item itemvalue="JUnit.RepoTest.canRollBackCommits" />
         <item itemvalue="JUnit.AccountTest.canSetUserName" />
         <item itemvalue="JUnit.AccountTest.canGetRepoByName" />
-        <item itemvalue="JUnit.All in GitHub" />
       </list>
     </recent_temporary>
   </component>

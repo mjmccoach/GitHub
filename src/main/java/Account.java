@@ -57,20 +57,20 @@ public class Account {
     public Repo getRepoByName(String name) {
         return this.repos.get(name);
     }
-
-    public Repo getRepoWithMostCommits(HashMap<String, Repo> repos) {
-        Repo mostCommitsRepo = new Repo("Most Commits", "Repo", RepoType.PUBLIC);
-//        HashMap<String, Repo> = repos.entrySet();
-//        for(repo : repos.keySet()) {
-//            if (repo.getCommits() > mostCommitsRepo.getCommits()) {
-//                mostCommitsRepo = repo;
-//            }
-//        }
-        repos.forEach((String, Repo)) {
-            if(repo.getCommits())
-        };
-        return mostCommitsRepo;
-    }
+//
+//    public Repo getRepoWithMostCommits(HashMap<String, Repo> repos) {
+//        Repo mostCommitsRepo = new Repo("Most Commits", "Repo", RepoType.PUBLIC);
+////        HashMap<String, Repo> = repos.entrySet();
+////        for(repo : repos.keySet()) {
+////            if (repo.getCommits() > mostCommitsRepo.getCommits()) {
+////                mostCommitsRepo = repo;
+////            }
+////        }
+//        repos.forEach((String, Repo)) {
+//            if(repo.getCommits())
+//        };
+//        return mostCommitsRepo;
+//    }
 
 
 //                if(Map.Entry<String, Repo>entry.getCommits() > mostCommitsRepo.getCommits());

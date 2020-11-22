@@ -66,14 +66,14 @@ public class RepoTest {
         assertEquals("Public", repo1.getRepoType());
     }
 
-    @Test
-    public void mostCommitsRepo() {
-        account1.addRepo(repo1);
-        account1.addRepo(repo2);
-        account1.addRepo(repo3);
-        repo1.addCommit(commit1);
-        assertEquals(repo1, account1.getRepoWithMostCommits(account1.getRepos()));
-    }
+//    @Test
+//    public void mostCommitsRepo() {
+//        account1.addRepo(repo1);
+//        account1.addRepo(repo2);
+//        account1.addRepo(repo3);
+//        repo1.addCommit(commit1);
+//        assertEquals(repo1, account1.getRepoWithMostCommits(account1.getRepos()));
+//    }
 
     @Test
     public void canRollBackCommits() {
