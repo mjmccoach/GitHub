@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Repo {
     private String name;
@@ -47,5 +48,10 @@ public class Repo {
 
     public RepoType setToPublic(Repo repo) {
         return repo.repoType = repoType.PUBLIC;
+    }
+
+    public void revertCommit() {
+        int index = this.commits.size() -1;
+        this.commits.remove(index);
     }
 }

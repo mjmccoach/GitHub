@@ -6,14 +6,22 @@ import static org.junit.Assert.assertEquals;
 public class AccountTest {
     Account account1;
     Repo repo1;
+    Repo repo2;
+    Commit commit1;
 
     @Before
     public void before() {
         account1 = new Account("HSolo", "Han Solo", AccountType.FREE);
         repo1 = new Repo("Stealing from Jabba","Robbing from a space slug", RepoType.PUBLIC);
+        repo2 = new Repo("Greedo shot first", "I swear", RepoType.PUBLIC);
+        commit1 = new Commit("Chewie...", 1);
 
     }
 
+    @Test
+    public void canSetUserName() {
+        assertEquals("Chewbacca", account1.setUserName("Chewbacca"));
+    }
     @Test
     public void canGetAccountType() {
         assertEquals("Free", account1.getAccountType());
@@ -65,6 +73,7 @@ public class AccountTest {
         assertEquals(repo1, account1.getRepoByName("Stealing from Jabba"));
 
     }
+
 }
 
 
