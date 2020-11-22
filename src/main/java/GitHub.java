@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class GitHub {
     private ArrayList<Account> gitHubAccounts;
@@ -13,5 +15,9 @@ public class GitHub {
 
     public int getAccounts() {
         return this.gitHubAccounts.size();
+    }
+
+    public void sortAccountsByName() {
+        gitHubAccounts.sort(Comparator.comparing(Account:: getUserName));
     }
 }
