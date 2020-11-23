@@ -164,15 +164,4 @@
     </state>
     <state x="342" y="23" key="refactoring.ChangeSignatureDialog/0.23.1280.709@0.23.1280.709" timestamp="1605892036357" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/GitHubTest.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
 </project>

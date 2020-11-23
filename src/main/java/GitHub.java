@@ -17,7 +17,7 @@ public class GitHub {
         return this.gitHubAccounts.size();
     }
 
-    public void sortAccountsByName() {
+    public void sortAccountsByUserName() {
         gitHubAccounts.sort(Comparator.comparing(Account:: getUserName));
     }
 }

@@ -33,7 +33,7 @@ public class GitHubTest {
         gitHub2.addAccountToGitHub(account2);
         gitHub2.addAccountToGitHub(account3);
 
-        gitHub2.sortAccountsByName();
+        gitHub2.sortAccountsByUserName();
 
         gitHub.addAccountToGitHub(account1);
         gitHub.addAccountToGitHub(account2);
